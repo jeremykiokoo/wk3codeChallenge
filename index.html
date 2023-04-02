@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flatiron</title>
+</head>
+<body>
+    <section class="top-bar">
+        <div class="left-content">
+            <h2 class="title">FlatDango</h2>
+            <ul class="navigation">
+                <li><a href ="#">Home</a></li>
+                <li><a class="active" href ="#">Movies</a></li>
+            </ul>
+        </div>
+        <div class="right-content">
+            <img src="images/icons8-shopping-cart-24.png" alt="" class="cart"> 
+            <div class="profile-img-box">
+                <img src="/images/fd.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="main-container">
+        <div class="sidebar">
+            <form action="#">
+                <div class="sidebar-groups">
+                    <h3 class="sg-title">Time</h3>
+                    <input type="" id="Afternoon" name="time" value="Afternoon">
+                    <label for="Afternoon">Afternoon</label><br>
+                    <input type="" id="Night" name="time" value="Night">
+                    <label for="Night">Night</label><br>
+                </div>
+                <div class="sidebar-group"></div>
+                <div class="sidebar-group"></div>
+            </form>
+        </div>
+        <div class="movies-container">
+            <div class="upcoming-img-box">
+                <img src="https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg" alt="">
+                <p class ="in-theater">In theater</p>
+                <button type="button" id="1">Buy Ticket</button>
+                </div>
+            </div>
+            <div class="showing-movies"></div>
+        </div>
+    </section>
+    <script src="db.json"></script>
+</body>
+</html>
