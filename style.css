@@ -93,12 +93,24 @@ img{
 
 .upcoming-img-box{
     position: relative;
+    left: 200px;
     height: 600px;
     width: 400px;
     border-radius: 1rem;
     overflow: hidden;
     margin-bottom: 1.5rem;
 
+}
+
+.ticket{
+    position: absolute;
+    bottom: .5rem;
+    left: 1rem;
+    color: white;
+    background-color: #1e1f26;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    border: 2px solid white;
 }
 
 .in-theater{
@@ -117,14 +129,12 @@ img{
 button{
     position: absolute;
     bottom: .5rem;
-    left: 10rem;
+    left: 12rem;
     color: white;
     background-color: #1e1f26;
-    padding: .5rem 1rem;
+    padding: .6rem 1rem;
     border-radius: 1rem;
     border: 2px solid white;
-    
-    
 }
 
 button:hover{
@@ -136,7 +146,4 @@ button:hover{
     flex-direction: column;
 }
 
-.h4{
-    color: white
-}
     
