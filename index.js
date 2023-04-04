@@ -19,6 +19,7 @@ console.log(card)
 document.querySelector('.movies-container').innerHTML=card
 console.log(data);  
 })
+
 //catching any errors that may occur
 .catch(error => {
     console.error(error);
